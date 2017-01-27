@@ -66,3 +66,4 @@ $('table').columnFilter({
 <script type="text/javascript">
 $('table').columnFilter();
 </script>
+ 
