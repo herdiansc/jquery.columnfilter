@@ -10,7 +10,7 @@ The syntax is as follows:
 #How  to Use It
 Your table markup:
 ```html
-<ul class="list-column"></ul>
+<ul class="column-list"></ul>
 <table>
     <thead>
         <tr>
@@ -42,7 +42,7 @@ $('table').columnFilter({
 });
 ```
 ##DEMO
-<ul class="list-column"></ul>
+<ul class="column-list"></ul>
 <table>
     <thead>
         <tr>
