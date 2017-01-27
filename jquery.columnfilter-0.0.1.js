@@ -40,7 +40,7 @@
                 }
             });
         });
-        $(settings.columnCheckboxsContainer+' li div input').bind('click', function(){
+        $(settings.columnCheckboxsContainer).find('input').bind('click', function(){
             var label = $(this).siblings('label').text();
 
             var index = $(that).find('thead tr th').filter(function() {
