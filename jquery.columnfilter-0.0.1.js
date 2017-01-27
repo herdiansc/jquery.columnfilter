@@ -14,7 +14,8 @@
  */
 
 (function ( $ ) {
- 
+    'use strict';
+     
     $.fn.columnFilter = function( options ) {
         var settings = $.extend({
             columnCheckboxsContainer: '.column-list',

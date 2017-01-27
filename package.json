@@ -13,10 +13,14 @@
   "license": "MIT",
   "homepage": "https://github.com/herdiansc/jquery.columnfilter#readme",
   "devDependencies": {
-    "grunt": "*",
-    "grunt-cli": "*",
-    "grunt-contrib-jshint": "*",
+    "grunt": "1.0.1",
+    "grunt-cli": "1.2.0",
+    "grunt-contrib-jshint": "1.1.0",
     "gulp-jshint": "^2.0.4",
     "jshint": "^2.9.4"
+  },
+  "engines" : {
+    "node": "4.4.7",
+    "npm": "3.10.8"
   }
 }
