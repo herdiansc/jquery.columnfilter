@@ -19,14 +19,8 @@
     </tbody>
 </table>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
-<script type="text/javascript" src="//cdn.rawgit.com/herdiansc/jquery.columnfilter/master/jquery.columnfilter-0.0.1.js"></script>
+<script type="text/javascript" src="jquery.columnfilter-0.0.1.js"></script>
 <script type="text/javascript">
-    $.fn.columnFilter.format = function(checkbox, column) {
-        return '<li><div class="checkbox checkbox-primary m-l-10">'+ checkbox +'<label>'+ column +'</label>'+'</div></li>';
-    };
-$('table').columnFilter({
-    columnCheckboxsContainer: 'ul',
-    localStorageNamespace: 'your.table.localstorage.name.column.'
-});
+$('table').columnFilter();
 </script>
  
