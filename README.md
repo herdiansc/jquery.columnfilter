@@ -1,4 +1,4 @@
-# jQuery.columnFilter [![Build Status](https://secure.travis-ci.org/jeresig/jquery.hotkeys.png)](http://travis-ci.org/jeresig/jquery.hotkeys)
+# jQuery.columnFilter
 
 #About
 **jQuery columnFilter** is a plug-in that lets you create filter for table which has many column.
@@ -34,13 +34,6 @@ And this is basic plugin initiation:
 ```javascript
 $('table').columnFilter();
 ```
-
-Syntax when wanting to use jQuery's `on()`/`off` methods:
-
-```javascript
-$('table').columnFilter();
-```
-
 And this is advance plugin initiation:
 ```javascript
 $('table').columnFilter({
