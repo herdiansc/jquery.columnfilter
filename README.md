@@ -10,7 +10,7 @@ The syntax is as follows:
 #How  to Use It
 Your table markup:
 ```html
-<ul class="list-column"></ul>
+<ul class="column-list"></ul>
 <table>
     <thead>
         <tr>
@@ -34,10 +34,10 @@ And this is basic plugin initiation:
 ```javascript
 $('table').columnFilter();
 ```
-And this is advance plugin initiation:
+Or this is advance plugin initiation:
 ```javascript
 $('table').columnFilter({
-    columnCheckboxsContainer: '.list-column',
+    columnCheckboxsContainer: '.column-list',
     localStorageNamespace: 'your.table.localstorage.name.column.'
 });
 ```
