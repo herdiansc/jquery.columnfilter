@@ -64,6 +64,9 @@ $('table').columnFilter({
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
 <script type="text/javascript" src="//cdn.rawgit.com/herdiansc/jquery.columnfilter/master/jquery.columnfilter-0.0.1.js"></script>
 <script type="text/javascript">
-$('table').columnFilter();
+$('table').columnFilter({
+    columnCheckboxsContainer: 'ul',
+    localStorageNamespace: 'your.table.localstorage.name.column.'
+});
 </script>
  
