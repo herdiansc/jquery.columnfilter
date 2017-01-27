@@ -48,8 +48,6 @@
                 return $.trim($(this).text()) === label;
             }).index();
 
-console.log(label,index);
-
             if( !$(this).is(':checked') ) {
                 localStorage.setItem(settings.localStorageNamespace + index, 'hide');
                 $(that).find('thead').children().each(function(i){
