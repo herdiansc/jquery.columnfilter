@@ -24,14 +24,15 @@
 
         var columnList = '';
         var that = this;
+        var checked='';
         $(that).find('* > tr').each(function(){
             $(this).children().each(function(index){
                 if( localStorage.getItem(settings.localStorageNamespace + index) == 'hide' ) {
                     $(this).hide();
-                    var checked='';
+                    checked='';
                 } else {
                     $(this).show();
-                    var checked='checked';
+                    checked='checked';
                 }
                 if( $(this).context.nodeName == settings.headerCell ) {
                     var label = $.trim($(this).text());
