@@ -41,3 +41,6 @@ $('table').columnFilter({
     localStorageNamespace: 'your.table.localstorage.name.column.'
 });
 ```
+
+## DEMO
+http://codepen.io/herdiansc/full/xgXoLJ/
