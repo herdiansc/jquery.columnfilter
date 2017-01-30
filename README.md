@@ -47,9 +47,9 @@ $('table').columnFilter({
 });
 ```
 
-# DEMO
+# Demo
 http://codepen.io/herdiansc/full/xgXoLJ/
 
-# SCOPE
+# Limitation
 - Table structure: The table need to have head structure with this hierarchy: table > thead > tr > th
 - This plugin relies on localStorage support on browser
