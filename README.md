@@ -3,11 +3,14 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 #About
-**jQuery columnFilter** is a plug-in that lets you create filter for table which has many column.
+**jQuery columnFilter** is a plug-in that lets you create filter for table which has many columns.
 
-When you hide several columns than the table will only columns that not been hiden.
+When you hide several columns than the table will only show selected columns.
 
-The syntax is as follows:
+## Functional Requirement
+These are requirements fullfilled by this plugin:
+- Need to be able to hide several columns so that the table more easy to read
+- Hiden column need to remain hiden on sequence page(table) visits. 
 
 #How  to Use It
 Your table markup:
@@ -44,9 +47,9 @@ $('table').columnFilter({
 });
 ```
 
-## DEMO
+# DEMO
 http://codepen.io/herdiansc/full/xgXoLJ/
 
-## SCOPE
+# SCOPE
 - Table structure: The table need to have head structure with this hierarchy: table > thead > tr > th
 - This plugin relies on localStorage support on browser
