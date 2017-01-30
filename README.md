@@ -40,9 +40,13 @@ Or this is advance plugin initiation:
 ```javascript
 $('table').columnFilter({
     columnCheckboxsContainer: '.column-list',
-    localStorageNamespace: 'your.table.localstorage.name.column.'
+    localStorageNamespace: 'your.table.localstorage.name.column.' // Change this config if you have many tables
 });
 ```
 
 ## DEMO
 http://codepen.io/herdiansc/full/xgXoLJ/
+
+## SCOPE
+- Table structure: The table need to have head structure with this hierarchy: table > thead > tr > th
+- This plugin relies on localStorage support on browser
