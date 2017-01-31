@@ -1,7 +1,7 @@
 # jQuery.columnFilter
 [![Build Status](https://secure.travis-ci.org/herdiansc/jquery.columnfilter.png)](http://travis-ci.org/herdiansc/jquery.columnfilter)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Bower: 0.0.1](https://img.shields.io/badge/bower-0.0.1-red.svg)](https://opensource.org/licenses/MIT)
+[![Bower: 0.0.1](https://img.shields.io/badge/bower-0.0.1-red.svg)
 
 #About
 **jQuery columnFilter** is a plug-in that lets you create filter for table which has many columns.
