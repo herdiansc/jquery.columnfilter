@@ -1,0 +1,24 @@
+{
+  "name": "jquery.columnfilter",
+  "description": "#About **jQuery columnFilter** is a plug-in that lets you create filter for table which has many column.",
+  "main": "",
+  "authors": [
+    "Herdian Sc"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "table",
+    "column",
+    "filtering",
+    "show",
+    "hide"
+  ],
+  "homepage": "https://github.com/herdiansc/jquery.columnfilter",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
