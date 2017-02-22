@@ -54,5 +54,6 @@ http://codepen.io/herdiansc/full/xgXoLJ/
 - Table structure: The table need to have head structure with this hierarchy: table > thead > tr > th
 - This plugin relies on localStorage support on browser
 
+
 # License
 jQuery.columnFilter is licensed under the MIT License - see the LICENSE file for details
